@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Bande20minute{
+    padding: 13px;
+    background-color: rgba(18, 18, 204, 0.904);
+    color: white;
+    margin-left: 66vw;
+    margin-right: 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bande{
+ margin-top: 60px;
+}
+
+.img2 {
+    position: relative;
+    margin-bottom: -24vw;
+    margin-left: -1vw;
+    margin-top: -9vw;
+}
+    
+    
+
+
+.img1{
+    position: relative;
+    margin-left: 34vw;
+    margin-top: -6vw;
+    margin-bottom: -44px;
+}
+
+
+
+.paris{
+    padding: 8px;
+    background-color: rgba(18, 18, 204, 0.904);
+    color: white;
+    margin-left: 4vw;
+    margin-right: 68vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.claire{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+}
+
+.date{
+    margin: 10px;
+}
+.num{
+    margin: 10px;
+}
+
+.min {
+    margin: 10px;
+}
