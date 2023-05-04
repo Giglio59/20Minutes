@@ -1,62 +1,285 @@
-p{margin: 0px;}
+@font-face{
+    font-family: "Ma fonte";
+    src: url("fonts/cardo/cardo-bold.woff");}
+
+@font-face{
+    font-family: "Ma fonte2";
+    src: url("static/OpenSans-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Ma fonte3";
+    src: url("fonts/cardo/cardo-bold.woff");
+    
+}
+
 body{
     background-color: rgb(253, 254, 254);
+    padding-top: 15px;
+    
 }
-
+.taille{
+    width: 25%;
+}
+strong{
+    color: #3939a1;
+    font-family:"Ma fonte2";
+}
 .image{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between
-}
-.Bande20minute{
-    margin-left: 1000px;
-    display: flex;
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: blue;
-    margin-right: 0em;
-    padding: 7px;
-    padding-top: 13px;
-    justify-content: space-evenly;
+    display: inline-flex;
+    flex-wrap: nowrap
 }
 
-.paris{
-    background-color: blue;
-    padding: 7px 1px 7px 7px;
-    border: 1emS;
-    text-align: center;
-    margin-right: 70vw;
-    background-color: blue;
-    padding: 7px 1px 7px 7px;
-    border: 1emS;
-    text-align: center;
-    margin-top: -4em;
+.Bande20minute{
+     
+        position: relative;
+        left: 1168px;
+        transform: translateX(-50%);
+        background-color: #3939a1;
+        text-align: center;
+        margin-top: 37px;
+        width: 455px;
+        z-index: 999;
+        color: white;
+        font-family: "Ma fonte";
+    }     
+    
+
+
+.paris {
+    left: 214px;
     position: relative;
+    transform: translateX(-50%);
+    background-color: #3939a1;
+    text-align: center;
+    margin-top: -70px;
+    width: 316px;
+    z-index: 999;
+    color: white;
+    font-family: "Ma fonte";
 }
+   
+
 .titre{
     display: flex;
     flex-direction: row-reverse;
 }
 
 .claire{
-    font-size: 61px;
-    margin-top: 23px;
-    margin-left: 54px;
+    font-size: 44px;
+    margin-top: 5px;
+    margin-left: 45px;
+    padding-right: 76px;
+    font-family:"Ma fonte3"
 }
+
+
+
 .img2{
-    margin-top: -168px;
-    
+    margin-top: -128px;
+    border-top: 16px solid black;
+    margin-left: -16px;
 }
 .img1{
-    margin-top:-17px ;
+    margin-top:-19px ;
     margin-right: 10px;
 }
 
-hr{
+.hr1{
+    margin-right: 48px;
     position: relative;
     padding: 0px;
+    margin-top: -7px;
+    margin-left: 51px;
+    max-width: 1429px;
 }
 .date{
+    margin-bottom: -17px;
+    padding-left: 50px;
     display: flex;
     justify-content: space-between;
+    padding-right: 47px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    margin-top: -21px;
 }
+.clai{
+    margin-left: -7px;
+    margin-bottom: 36px;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin-right: -9px;
+
+}
+.pub{
+    margin-top: 138px;
+    margin-right: 45px;
+    float: right;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    font-size: 18px;
+
+}
+
+.bandaux{
+    margin-left: 0px;
+    margin-top: 203px;
+    float: right;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin-right: 22px;
+}
+.Bandaux{
+    margin-left: 0px;
+    margin-top: 264px;
+    float: right;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin-right: 22px;}
+   
+.bandecouple{
+    font-size: 19px;
+    margin-left: 1032px;
+    float: left;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin-top: -221px;
+}
+
+
+.retraite{
+    padding-left: 51px;
+    font-size: 28px;
+    font-family: "ma fonte";
+    margin-top: -2px;
+
+}
+.retraites{
+    padding-left: 59px;
+    font-size: 28px;
+    font-family: "ma fonte";
+    margin-top: -16px;
+}
+
+.hr3{
+    margin-right: 62px;
+    margin-top: 62px;
+}
+
+.hr4{
+    margin-left: 60px;
+}
+.hr5{
+    margin-right: 9%;
+    margin-left: 15%;
+}
+
+.hr2{
+    
+    margin-right: 9%;
+    margin-left: 15%;
+}
+.Tele{
+    font-size: 28px;
+    padding-left: 59px;
+    font-family: "ma fonte";
+    margin-top: 0px;
+    
+}
+.couple{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.calin{
+    padding-left: 2px;
+    padding-top: 10px;
+    margin-left: -17px;
+}
+.calin2{
+    margin-top: -16px;
+    margin-bottom: -40px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    margin-left: 146px;
+    font-family: "Ma fonte";
+}
+
+
+
+.barre{
+    margin-top: 120px;
+    float: left;
+    position: relative;;
+}
+
+    
+.calin3{
+    margin-top: 133px;
+    margin-left: 298px;
+    margin-bottom: 50px;
+}
+
+
+
+
+h1{
+    margin: auto;
+    z-index: 4;
+    position: relative;
+    margin-top: -654px;
+    margin-left: 110px;
+    color: white;
+    font-size: 99px;
+    font-family: "Ma fonte3";
+    right: -21px;
+}
+
+
+
+.imgside{
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.imgsides{
+    padding-top: 24px;
+    padding-left: 12px;
+    margin-bottom: 25px;
+}
+
+
+
+.side{
+    
+    float: left;
+    width: 424px;
+    padding-bottom: 26px;
+    height: 1226px;
+
+}
+
+.foot{
+    left: 62px;
+    position: absolute;
+    padding-bottom: 30px;
+    margin-top: -2px;
+    margin-left: 13px;
+    
+}
+
+footer{
+    width: 1523px; 
+    
+}
+
+
+html{
+        max-width: 1520px;
+        border-top: 3px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        box-shadow: rgb(0, 0, 0) 0px 5px 20px;
+        height: 2034px;
+}
+     
